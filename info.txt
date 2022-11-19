@@ -1,0 +1,2 @@
+#built
+pyinstaller --onefile -w source_code_only_if_you_need_it/platformer.pyw --hidden-import plyer.platforms.win.notification

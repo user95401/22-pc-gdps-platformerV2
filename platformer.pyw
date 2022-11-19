@@ -139,7 +139,7 @@ def main(useless1,useless2):
     credits = tk.Label(window, text="Edited by user666\nOriginal by TrollinDude\nUsed gd.py by nekitdev", justify = "right", font=("Arial", 10))
     credits.place(relx = 1, x =-2, rely=1, y = 1, anchor = "se")
 
-    GitHubRepoOpen = tk.Button(window, text="Github", command = GitHubRepoOpen)
+    GitHubRepoOpen = HTMLLabel(tk, html='<a href="http://www.google.com"> Google Hyperlink </a>')
     GitHubRepoOpen.place(relx=.0, rely=1, height=22, anchor="sw")
 
     def close_window():

@@ -1,0 +1,4 @@
+smoothing_iterations 20
+fps 240
+#smooting_iterations default is 10 and this value changes the way the movement smoothing works
+#the default fps is 60 and increasing this will make the program run faster allowing you to use higher fps in gd but this is at the cost of cpu usage
