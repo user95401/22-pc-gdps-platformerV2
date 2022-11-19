@@ -9,4 +9,4 @@ I have edited/added: lock player rotation at idle, unlock player rotation when m
 
 `pyinstaller --onefile -w platformer.pyw --hidden-import plyer.platforms.win.notification`
 
-#### Original by TrollinDude, used gd.py by nekitdev
+#### Original by [TrollinDude](https://github.com/TrollinDude), used gd.py by [nekitdev](https://github.com/nekitdev)
